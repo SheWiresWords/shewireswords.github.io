@@ -24,8 +24,8 @@ import './App.css';
 
 export default function App() {
   return (
-    <BrowserRouter>
-      <div className="app">
+   <BrowserRouter basename="/">
+     <div className="app">
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
