@@ -1,8 +1,8 @@
 {
-  "name": "react-javascript",
-  "version": "1.0.0",
+  "name": "She Wires Words",
+  "version": "1.0.1",
   "type": "module",
-  "description": "React TypeScript on Replit, using Vite bundler",
+  "description": "Coding and Tech Resources",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
