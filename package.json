@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "type": "module",
   "description": "Coding and Tech Resources",
+  "homepage": "https://shewireswords.github.io",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
