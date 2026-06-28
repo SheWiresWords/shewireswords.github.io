@@ -6,7 +6,7 @@ export default function Footer() {
         <span style={{color: '#fff8dc', fontWeight: 'bold'}}>She Wires Words</span>
       </div>
 
-      <p>&copy;2025 She Wires Words. All rights reserved. Created by Alexa Curtis.</p>
+      <p>&copy;2026 She Wires Words. All rights reserved. Website by Alexa Curtis.</p>
       <p style ={{fontWeight: "50", fontSize:"12px"}} >She Wires Words receives 501(c)(3) status through fiscal sponsorship from Hack Club.</p>
     </footer>
   );
