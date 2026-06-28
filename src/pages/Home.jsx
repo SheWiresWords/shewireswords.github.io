@@ -48,7 +48,7 @@ export default function Home() {
       <h1>
         <div className="title-container">
           <div className="main-title">Welcome to She Wires Words</div>
-          <p className="subtitle">Empowering women and students with free virtual resources and sharing underrepresented voices.<br></br> <br></br> Founded by Alexa Curtis</p>
+          <p className="subtitle">Empowering women and students with free virtual resources and sharing underrepresented voices.</p>
         </div>
         <div className="button_div" >
           <Link to="/projects" className="projects-button">
