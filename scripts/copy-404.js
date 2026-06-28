@@ -4,9 +4,10 @@ import { dirname, resolve } from 'path';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
+const projectRoot = resolve(__dirname, '..');
 
-const source = resolve(__dirname, '../index.html');
-const target = resolve(__dirname, '../404.html');
+const source = resolve(projectRoot, 'dist/index.html');
+const target = resolve(projectRoot, 'dist/404.html');
 
 await copyFile(source, target);
-console.log('Copied index.html to 404.html for GitHub Pages SPA routing fallback');
+console.log('Copied dist/index.html to dist/404.html for GitHub Pages SPA routing fallback');
