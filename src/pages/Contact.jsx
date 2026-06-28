@@ -6,7 +6,7 @@ export default function Contact() {
     <main>
       <h1><div className="title-container">
           <div className="main-title">Volunteer and Contact</div>
-        <p className= "subtitle">Join our mission to empower young women in tech and connect with our community</p>
+        <p className= "subtitle">Join our mission to empower women and students in tech and connect with our community</p>
         </div></h1>
 
 
@@ -36,7 +36,7 @@ export default function Contact() {
         <h2>🌟 Volunteer with Our Newsletter</h2>
         <div className="square_div_dark_teal">
           <p>
-            Are you a high school girl passionate about technology? Ready to break barriers and inspire others? 
+            Are you a high school student passionate about technology? Ready to break barriers and inspire others? 
             Join our newsletter volunteer team and write about your experience in tech to empower the next generation of 
             female tech leaders. Share your coding journey, get volunteer hours, and be part of the 
             movement changing the face of technology.
