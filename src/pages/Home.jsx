@@ -48,7 +48,7 @@ export default function Home() {
       <h1>
         <div className="title-container">
           <div className="main-title">Welcome to She Wires Words</div>
-          <p className="subtitle">Empowering middle and high school girls in tech with free virtual resources and by sharing our voice.<br></br> <br></br> Founded by Alexa Curtis</p>
+          <p className="subtitle">Empowering women and students with free virtual resources and sharing underrepresented voices.<br></br> <br></br> Founded by Alexa Curtis</p>
         </div>
         <div className="button_div" >
           <Link to="/projects" className="projects-button">
@@ -90,7 +90,7 @@ export default function Home() {
           </Link>
           <Link to="/learn" className="glass-box" aria-label="AP Study Guides">
             <h3>AP Study Guides</h3>
-            <p>Master the 2025 AP Computer Science curriculum</p>
+            <p>Master the AP Computer Science A curriculum</p>
           </Link>
           <Link to="/contact" className="glass-box" aria-label="Volunteer Opportunities">
             <h3>Volunteer Opportunities</h3>
@@ -113,19 +113,19 @@ export default function Home() {
         <article className="mid_home_page">
           <h2>What We Offer</h2>
           <p>
-            We started out by giving girls resources for AP Computer Science, and we reached over 1000 girls with our AP resources alone. 
+            We started out by giving high school students resources for AP Computer Science, and we reached over 4,000 students with our AP resources alone. 
             Soon after, we started a newsletter to encourage girls to keep pursuing tech or start if they were interested. Our newsletter is published bi-monthly and features student publications about modern technology and personal experiences. 
-            On our TikTok page, we feature intermediate and advanced student projects that inspire girls to learn more about coding. On our Instagram, we advertise volunteer + leadership opportunities for girls to get involved in the tech community. We also post educational resources on both social accounts.
+            On our Instagram, we post educational slideshows, volunteer opportunities, and chances for leadership. All of these items intend to help students get more involved in the tech community. 
           </p>
         </article>
 
         <article className="bot_home_page" >
           <h2>Community. Confidence. Achievement.</h2>
           <p>
-            Our aim is to create a supportive environment where young women can learn coding without 
-            intimidation. Through hands-on projects, comprehensive AP guides, and a focus 
-            on practical application, She Wires Words helps female students not only learn programming languages but develop the confidence to pursue careers in technology and 
-            become the next generation of women leaders in tech.
+            Our goal is to create a supportive environment where women and students can learn coding without 
+            limits. Through hands-on projects, comprehensive AP guides, and a focus 
+            on practical application, She Wires Words helps students not only learn programming languages but develop the confidence to pursue careers in technology and 
+            become the next generation of leaders in tech.
           </p>
         </article>
       </section>
