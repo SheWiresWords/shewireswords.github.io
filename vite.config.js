@@ -1,48 +1,6 @@
-name: Build and Deploy to GitHub Pages
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
-on:
-  push:
-    branches:
-      - main
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-jobs:
-  build-and-deploy:
-    runs-on: ubuntu-latest
-
-    steps:
-      # Check out the repository
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      # Set up Node.js
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 18
-
-      # Install dependencies
-      - name: Install dependencies
-        run: npm install
-
-      # Build the React app
-      - name: Build
-        run: npm run build
-
-      # Copy 404.html for SPA routing
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-
-      # Deploy to GitHub Pages
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: 'dist'
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+export default defineConfig({
+  plugins: [react()],
+})
