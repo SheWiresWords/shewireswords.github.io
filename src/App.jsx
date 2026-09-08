@@ -20,6 +20,7 @@ import ArduinoSonar from './pages/ProjectFolder/ArduinoSonar';
 import VoiceAssistant from './pages/ProjectFolder/VoiceAssistant';
 import SimpleWebAnimations from './pages/ProjectFolder/SimpleWebAnimations';
 import ResponsiveWebLayouts from './pages/ProjectFolder/ResponsiveWebLayouts';
+import Collaborations from './pages/Collaborations';
 import './App.css';
 
 export default function App() {
@@ -35,6 +36,7 @@ export default function App() {
           <Route path="/lesson/Unit2" element={<LessonUnit2 />} />
           <Route path="/resources" element={<Resources />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/collaborations" element={<Collaborations />} />
           <Route path="/newsletter" element={<Newsletter />} />
           <Route path="/learn" element={<Learn />} />
           <Route path="/ap-archive" element={<APArchive />} />
