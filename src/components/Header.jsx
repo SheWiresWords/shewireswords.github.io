@@ -169,6 +169,14 @@ export default function Header() {
                     Volunteer & Contact
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="/newsletter"
+                    aria-label="Collaborations - See who our partner orgs are"
+                  >
+                    Collaborations
+                  </a>
+                </li>
               </ul>
             </li>
 
