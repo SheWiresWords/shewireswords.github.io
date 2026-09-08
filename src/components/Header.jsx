@@ -171,7 +171,7 @@ export default function Header() {
                 </li>
                 <li>
                   <a
-                    href="/newsletter"
+                    href="/collaborations"
                     aria-label="Collaborations - See who our partner orgs are"
                   >
                     Collaborations
