@@ -226,6 +226,14 @@ export default function Header() {
                 Volunteer & Contact
               </a>
             </li>
+            <li className="mobile-only">
+              <a
+                href="/collaborations"
+                aria-label="Collaborations - View our partners and collaborations"
+              >
+                Collaborations
+              </a>
+            </li>
           </ul>
         </nav>
       </div>
