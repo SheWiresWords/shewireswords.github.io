@@ -1558,6 +1558,10 @@ img{
   }
 }
 
+@media (max-width: 480px) {
+  font-family: 'Roboto', sans-serif;
+}
+
 footer {
   text-align: center;
   color: #fff8dc;
